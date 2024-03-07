@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(g9.jpg);
+                background-size: cover;
+            }
+            div{
+                height: 300px;
+                width: 300px;
+            }
+           #dv1{
+               margin: 100px auto;
+               border: groove 10px gray;
+            background-color: rgba(200, 120, 8, 0.445);
+            }
+            #dv2{
+                background-color: white;
+                font-size: 30px;
+                text-align: center;
+                line-height: 300px;
+                font-weight: bold;
+               /* transform: rotate(45deg);
+                transform-origin: 20% 20%; */
+                transition: all 1s;
+               
+            }
+            #dv2:hover{
+              /*  transform: skewY(30deg); 
+              transform: skewX(25deg); 
+              transform: skew(40deg , 20deg); 
+              transform: translateX(-200px); 
+              transform: translate(100px , -200px  ); */
+              transform: scale(-1.1);
+              box-shadow: 0px 0px 10px 2px black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="dv1">
+            <div id="dv2">HTML AND CSS</div>
+        </div>
+    </body>
+</html>
